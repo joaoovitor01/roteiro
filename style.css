@@ -1,0 +1,101 @@
+/* geral */
+
+Body {
+  font-family: "Fira Sans", Arial, sans-serif;
+  margin: 0px;
+  color: #141414;
+}
+h1{
+  font-size: 3.5rem;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* alinhamento */
+section{
+  height: 500px;
+  width: 1000px;
+  display: block;
+}
+
+.bloco{
+  padding: 40px 20px;
+  margin: 0 auto;
+}
+
+/* roteiro */
+
+.roteiro{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff8e6;
+}
+
+/* pensando */
+
+.pensando{
+  background-color: #fff0c9;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.rotei{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.tema{
+  color: #5E5C5E;
+  border-bottom: solid 4px #b679ba ;
+}
+
+.existe{
+  font-size: 1.5rem;
+}
+
+/* pensando */
+
+.grid{
+  background-color: #fef9e5;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+ul{
+  margin-top: 6rem;
+}
+
+.rote{
+  margin-left: 7rem;
+  display: flex;
+  justify-items: center;
+}
+
+/* tema */
+.cor{
+  background-color: #FFEDD6;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.publi{
+  background-color: #FFEDD6;
+}
